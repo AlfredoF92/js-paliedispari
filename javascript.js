@@ -36,6 +36,15 @@ for(let i=0; i<arrayInput.length; i++){
 }
 
 
+
+
+/**
+ * 
+ * La funzione verifica se la parola è palindroma
+ * 
+ * @param {stringa palindroma}  
+ * @returns true o false se la stringa è palindroma
+ */
 function isPalindroma(palindroma){
    
     let isPalindroma = true; 
@@ -58,4 +67,24 @@ function isPalindroma(palindroma){
 
     return isPalindroma;
 }
+
+
+
+/**
+ * 
+ * La funzione verifica se il numero è dispari
+ * 
+ * @param {numero}  
+ * @returns true se il numero è dispari | false se il numero è pari
+ */
+function isDispari(numero){
+
+    if (!(numero%2 === 0)) {
+        return true;
+    }else 
+        return false; 
+
+}
+
+
 
